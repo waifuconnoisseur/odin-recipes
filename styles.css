@@ -1,21 +1,61 @@
 body {
+    background-color: darkred;
+    border: 2px;
+    border-style: solid;
+    border-color: gold;
+    padding: 5px;
+}
+
+p {
     background-color: burlywood;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,
+h3,
+h4 {
+    background-color: burlywood;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
 }
 
 .recipe {
-    background-color: black;
-    color: darkred;
-    font-size: 16px;
+    background-color: burlywood;
+    color: black;
     text-align: center;
+    font-size: 16px;
     margin-bottom: 5px;
     margin-left: 30%;
     margin-right: 30%;
     padding: 5px;
 }
 
+.direction {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 #header {
-    background-color: darkred;
+    background-color: burlywood;
     font-size: 40px;
     text-align: center;
     margin-bottom: 5px;
+}
+
+#home {
+    display: block;
+    background-color: burlywood;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
 }
