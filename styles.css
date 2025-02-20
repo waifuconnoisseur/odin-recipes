@@ -5,6 +5,13 @@ body {
     border-style: groove;
     border-color: gold;
     padding: 5px;
+    margin: 5px;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+    margin: 0;
 }
 
 p {
